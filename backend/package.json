@@ -1,0 +1,27 @@
+{
+  "name": "shopkart-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node scripts/seedProducts.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "razorpay": "^2.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
